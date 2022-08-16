@@ -1,0 +1,56 @@
+.gpsLocation {
+  padding: 10px;
+  background-color: #ffaaff;
+}
+
+.submissionStatus {
+  padding: 10px;
+  background-color: greenyellow
+}
+
+img1 {
+  width: 80px;
+  height: 60px;
+}
+
+img {
+  width: 80px;
+  height: 60px;
+}
+
+.root1 {
+  border: 1pt solid red;
+  width: 80%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.userName1 {
+  flex-wrap: wrap;
+  border: 1pt solid gray;
+  width: fit-content;
+  height: 15px;
+  padding:5px;
+  background:#f00;
+  margin-right: 16px;
+  border-radius: 5pt;
+}
+
+.divHeader {
+  border: 1pt solid orange;
+  width: 60%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.divWinner {
+  flex-wrap: wrap;
+  background:orange;
+  border: 1pt solid blue;
+  width: 200pt;
+  text-align: center;
+}

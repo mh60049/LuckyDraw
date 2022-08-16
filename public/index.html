@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Web Database</title>
+</head>
+<body>
+  <h1>Web Database!</h1>
+  <div>
+    <a href="/">enter</a> | <a href="/logs">List</a>
+  </div>
+  <p class="gpsLocation">
+    Latitude: <span id="latitude">&deg;</span><br />
+    Longitude: <span id="longitude">&deg;</span>
+  </p>
+  Enter name: <input id="mood" value="rainbow" />   
+  <button id="submit">Submit</button>
+  <p class="submissionStatus">
+    Status: <span id="msg1"></span>
+  </p>
+
+  <script src="sketch.js"></script>
+</body>
+</html>
